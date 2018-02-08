@@ -5,6 +5,10 @@
   <xacro:include filename="$(find turtlebot3_description)/urdf/astra.urdf.xacro"/>
   <xacro:include filename="$(find turtlebot3_description)/urdf/pantilt.urdf.xacro"/>
 
+  <xacro:property name="r200_cam_offset_px" value="0.1" />
+  <xacro:property name="r200_cam_offset_py" value="-0.028" />
+  <xacro:property name="r200_cam_offset_pz" value="0.110" />
+
   <xacro:property name="r200_cam_rgb_px" value="0.005"/>
   <xacro:property name="r200_cam_rgb_py" value="0.018"/>
   <xacro:property name="r200_cam_rgb_pz" value="0.013"/>
